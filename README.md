@@ -11,7 +11,7 @@ Developed in Semantic HTML, Responsive CSS, and JQuery, the app fully supports a
 
 ## Some Screenshots (representing a mobile device)
 
-![] (https://github.com/jponczak/PerfectPodcast/tree/master/img/pod1.png)
+[![Perfect Podcast Primary View](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Primary View")](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Primary View")
 
 ![] (https://github.com/jponczak/PerfectPodcast/tree/master/img/pod2.png)
 
