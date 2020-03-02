@@ -13,8 +13,8 @@ Developed in Semantic HTML, Responsive CSS, and JQuery, the app fully supports a
 
 [![Perfect Podcast Primary View](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Primary View")](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Primary View")
 
-![] (https://github.com/jponczak/PerfectPodcast/tree/master/img/pod2.png)
+[![Perfect Podcast Form](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Form")](https://jponczak.github.io/PerfectPodcast/img/pod2.png "Perfect Podcast Form")
 
-![] (https://github.com/jponczak/PerfectPodcast/tree/master/img/pod3.png)
+[![Perfect Podcast Summary](https://jponczak.github.io/PerfectPodcast/img/pod1.png "Perfect Podcast Summary")](https://jponczak.github.io/PerfectPodcast/img/pod3.png "Perfect Podcast Summary")
 
-![] (https://github.com/jponczak/PerfectPodcast/tree/master/img/pod4.png)
+[![Perfect Podcast Directions](https://jponczak.github.io/PerfectPodcast/img/pod4.png "Perfect Podcast Directions")](https://jponczak.github.io/PerfectPodcast/img/pod4.png "Perfect Podcast Directions")
