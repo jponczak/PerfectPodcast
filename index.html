@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Perfect Podcast</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/flex.css">
+</head>
+
+<body>
+    <main>
+        <!-- hambuger menu! -->
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn" /> 
+            <label class="menu-icon" for="menu-btn"><span class='nav-content'>Hamburger Menu</span><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#find">Find Podcasts</a></li>
+            </ul>
+        </nav>
+            <!-- landing area -->
+        <section id="landing">
+            <section id="landing-text">
+                <section>
+                    <h1>The Perfect Podcast</h1>
+                    <h2>Perfectly Timed Podcasts for your daily commute.</h2>
+                    <a href="#find-podcast" class="btn" id="find-pods">
+                        Let's Try
+                    </a>
+                </section>
+            </section>
+            <section id="landing-image"></section>
+        </section>
+        <!-- podcast data -->
+        <section id="podcasts" class="hidden">
+            <div class="header">
+                <h2>Podcasts</h2>
+            </div>
+            <section id="podcasts-text" class="caption" style="background-image: url(https://source.unsplash.com/1600x900/?traffic,city)">
+                <div class="podcasts-text-inner">
+                    <h3>End Up With Perfectly Timed Podcasts</h3>
+                </div>
+                <section>
+                    <a href="#directions" class="btn" id="dirs">
+                        Want Directions?
+                    </a>    
+                </section>
+            </section>
+        </section>
+        <!-- directions -->
+        <section id="directions" class="hidden">
+            <div class="header">
+                <h2>Directions</h2>
+            </div>
+            <div id="directions-text" class="caption" style="background-image: url(https://source.unsplash.com/1600x900/?traffic,listen)">
+                <div class="directions-text-inner">
+                        <p class="steps">Submit your from/to addresses</p>
+                        <p class="steps">Identify some topics</p>
+                </div>
+            </div>
+        </section>
+        <!-- user form -->
+        <section id="find">
+            <div class="header">
+                <h2>Find Podcasts</h2>
+            </div>
+            <div id="find-text" class="caption" style="background-image: url(https://source.unsplash.com/1600x900/?traffic,city)">
+                <div class="container">
+                    <h2 class="error-mapquest"></h2>
+                    <form id="user-form">
+                        <section class="error-message"></section>
+                        <ul class="flex-outer">
+                          <li>
+                            <label for="from-address">Going From</label>
+                            <input type="text" id="from-address" value="fairfax, va" name="from-address">
+                        </li>
+                          <li>
+                            <label for="to-address">Going To</label>
+                            <input type="text" id="to-address" value="baltimore, md" name="to-address"><br />
+                              </li>
+                          <li>
+                            <label for="podcast-interests">Podcast Interests</label>
+                            <input type="text" id="podcast-interests" value="Mystery, finance, politics" name="podcast-interests">
+                        </li>
+                          <li>
+                            <button type="submit">Submit</button>
+                          </li>
+                        </ul>
+                      </form>                    
+                    <section class="results hidden">
+                        <h2>direction data</h2>
+                        <section class="mapquest-results">
+                        </section>
+                    </section>
+                    <section class="podcast-result hidden">
+                        <h2>podcast data</h2>
+                        <section class="podcast-results">
+                        </section>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="about">
+        <div class="header">
+            <h2>About Me</h2>
+        </div>
+        <section class="footer-inner">
+            <h4>Perfect Podcasts helps you find perfectly timed podcasts with your daily commute.</h4>
+            <p><strong>Developed By: </strong>jponczak@gmail.com | <a href="https://github.com/jponczak/thinkful" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/jponczak/" target="_blank">LinkedIn</a></p>
+            <p><strong>API Data From: </strong> <a href="http://mapquest.com" target="_blank">MapQuest</a> | <a href="http://listennotes.com" target="_blank">ListenNotes</a></p>   
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
