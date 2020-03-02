@@ -149,8 +149,7 @@ footer {
   color: #142850;
 }
 
-nav,
-footer {
+nav {
   padding: 1% 0;
 }
 
@@ -362,13 +361,16 @@ form {
   list-style: none;
 }
 
+footer {
+  padding: 0;
+  background-color: #eee;
+}
 .footer-inner {
 
   text-align: center;
   margin: auto;
   color: #333;
-  background-color: #00a8cc;
-
+  /* background-color: #00a8cc; */
 }
 
 footer h4 {
