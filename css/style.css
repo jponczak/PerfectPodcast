@@ -59,6 +59,7 @@ footer {
 #landing-text h2,
 #direction-text h2 {
   color: #3282b8;
+  font-size:1.6rem;
 }
 
 #landing-image {
@@ -83,6 +84,8 @@ footer {
   text-decoration: none;
   background-color: #0c7b93;
   transition: background 500ms ease;
+  font-size:1.2rem;
+  font-weight:700;
 }
 
 .btn:hover {
