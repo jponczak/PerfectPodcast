@@ -184,12 +184,13 @@ nav li a {
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
   font-size: .85rem;
-  color: #142850;
+  color: #bbe1fa;
 }
 
 nav li a:hover,
 nav .menu-btn:hover {
   background-color: #f4f4f4;
+  color: #1b262c;
 }
 
 /* menu */
@@ -212,7 +213,7 @@ nav .menu-icon {
 }
 
 nav .menu-icon .navicon {
-  background: #333;
+  background: #bbe1fa;
   display: block;
   height: 2px;
   position: relative;
@@ -222,7 +223,7 @@ nav .menu-icon .navicon {
 
 nav .menu-icon .navicon:before,
 nav .menu-icon .navicon:after {
-  background: #333;
+  background: #bbe1fa;
   content: '';
   display: block;
   height: 100%;
@@ -380,14 +381,15 @@ footer {
 
 footer h4 {
   margin-bottom: 0;
+  font-size: 1.2rem;
 }
 
 footer p {
-  font-size: .8rem;
+  font-size: 1.2rem;
 }
 
 
 footer a {
-  color: #3282b8;
+  color: #0f4c75;
   text-decoration: none;
 }
