@@ -58,7 +58,7 @@ footer {
 
 #landing-text h2,
 #direction-text h2 {
-  color: #00a8cc;
+  color: #3282b8;
 }
 
 #landing-image {
@@ -126,7 +126,7 @@ footer {
   display: inline-block;
   padding-right: 1rem;
   padding-left: 1rem;
-  color: #00a8cc;
+  color: #3282b8;
 }
 
 .caption {
@@ -156,7 +156,7 @@ nav {
 }
 
 nav {
-  background-color: #008acc;
+  background-color: #0f4c75;
   /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
   /* position: fixed; */
   width: 100%;
@@ -385,6 +385,6 @@ footer p {
 
 
 footer a {
-  color: #00a8cc;
+  color: #3282b8;
   text-decoration: none;
 }
